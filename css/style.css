@@ -601,10 +601,24 @@ a:hover {
 ======================================*/
 
 .intro {
-  height: 110vh;
+  height: 100vh;
   position: relative;
   color: #fff;
 }
+
+.text-email{
+  font-size: 24px;
+}
+
+@media (max-width: 577px) {
+  .intro {
+    height: 140vh;
+  }
+  .text-email{
+    font-size: 20px;
+  }
+}
+
 
 .intro .intro-content {
   text-align: center;
